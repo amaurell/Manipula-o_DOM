@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+#ligado {
+  background-color: grey;
+}
+#desligado {
+  background-color: red;
+}
+
+
+input {
+  margin-bottom:15px;
+  margin-left: 5px;
+  width: 130px;
+  height: 20px;
+  border:none;
+  padding: 5px;
+  
+
+}
+button{
+  width: 150px;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+.container {
+ 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  border:1px solid black;
+  background: rgb(208, 208, 208);
+}
+.box-esquerda {
+  width: 50%;
+  border-right:1px solid black
+}
+.left {
+  
+  padding: 50px 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  
+}
+.box-direita {
+ 
+  width: 50%;
+  
+ 
+ 
+}
+.right {
+  position: relative;
+  padding: 50px 50px;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius:10px;
+  
+  
+
+}
